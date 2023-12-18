@@ -12,7 +12,7 @@ import joblib
 # Page 
 st.set_page_config(
     page_title= "Malicious URL Detection", # Page title
-    page_icon=".\Icons\malicious.png", # Page Icon
+    page_icon="./Icons/malicious.png", # Page Icon
 )
 
 # Sidebar
@@ -26,7 +26,7 @@ with st.sidebar:
     )
 
     # Display GIF in the sidebar
-    st.sidebar.image(".\Icons\hacker.png", use_column_width=True)
+    st.sidebar.image("./Icons/hacker.png", use_column_width=True)
 
 # Map Visualization
 malicious_counts_by_region = pd.read_csv("malicious_counts_by_region.csv")
