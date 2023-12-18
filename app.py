@@ -187,7 +187,7 @@ def create_histogram(feature):
 # Feature Extraction Analysis Page
 if selected == "Feature Extraction Analysis":
     st.title("Feature Extraction Analysis")
-    st.image(".\Icons\structure_url.png", caption="Structure of URL")
+    st.image("./Icons/structure_url.png", caption="Structure of URL")
     st.write("""
         The image above illustrates the structure of a URL. 
         By entering a URL below, you will be presented with a table that displays the features extracted 
